@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Garbage Collector</string>
+
+    <!-- UTF8 code for character -->
+    <string name="code_space">" "</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu -->
+    <string name="deposit">Depositar</string>
+    <string name="offer">Ofertas</string>
+    <string name="map">Mapa</string>
+    <string name="settings">Preferencia</string>
+    <string name="contactUs">Contactarnos</string>
+    <string name="about">acerca de</string>
+
+    <!-- Main Activity -->
+    <string name="mail">contact@valhatech.com</string>
+    <string name="subjectMail">acerca de Garbage Collector</string>
+    <string name="bodyMail"></string>
+    <string name="sendMail">Enviar un email...</string>
+    <string name="noClientMail">No hay ningún cliente mail instalado.</string>
+
+    <!-- Categories -->
+    <string name="catAll">Todo</string>
+    <string name="catFurniture">Mobiliario</string>
+    <string name="catBook">Libro</string>
+    <string name="catTextile">Escombros</string>
+    <string name="catRubble">Escombros</string>
+    <string name="catMultimedia">Multimedia</string>
+    <string name="catHomeAppliance">Accesorios</string>
+    <string name="catBedding">Dormitorio</string>
+    <string name="catDetachedPieces">Piezas de repuesto</string>
+    <string name="catToyHobby">Juguete Ocio</string>
+    <string name="catOther">Otros</string>
+    <string name="catPallet">Paleta</string>
+
+    <!-- Fragment form label des textView  -->
+    <string name="form_title">Title :</string>
+    <string name="form_category">Categoría :</string>
+    <string name="form_gpscoordinate">Coordenadas GPS:</string>
+    <string name="form_address">Dirección :</string>
+    <string name="form_dateTime">Fecha y Hora :</string>
+    <string name="form_errorTitle">Enter a title</string>
+    <string name="form_errorAddress">Enter an address</string>
+    <string name="form_buttonSave">Guardar</string>
+    <string name="form_buttonCancel">Cancelar</string>
+
+    <!--- Fragment display all trash -->
+    <string name="displayAllTrashCategory">Categoría :</string>
+    <string name="displayAllTrashSort"> Selección:</string>
+
+    <!-- Fragment display Trash -->
+    <string name="displayTrashCategory">Categoría</string>
+    <string name="displayTrashGpsCoordinate">Coordenadas GPS :</string>
+    <string name="displayTrashSince">Desde :</string>
+    <string name="displayTrashAddress">Dirección :</string>
+    <string name="displayTrashButton">Este objeto ha sido retirado</string>
+    <string name="displayTrashToast">La dirección ha sido copiada</string>
+
+    <string name="displayTrashYesButton">Sí</string>
+    <string name="displayTrashNoButton">No</string>
+    <string name="displayTrashAreYouSureButton">Quiere remover este objeto</string>
+
+    <string name="objectAvailable">Este objeto está disponible, se puede encontrar en :</string>
+    <string name="atGpsCoordinate">Coordenadas GPS :</string>
+    <string name="shareWith">Comparte este artículo con</string>
+
+    <!-- Dialog box for removed trash -->
+    <string name="displayTrashAreYouSure">Are you sure you want to removed this trash</string>
+    <string name="displayTrashYes"> Sí</string>
+    <string name="displayTrashNo">No</string>
+
+    <!-- MyUtils -->
+    <string name="justNow">al momento</string>
+
+    <!-- Time -->
+    <string name="years">a</string>
+    <string name="months">m</string>
+    <string name="days">d</string>
+    <string name="hours">h</string>
+    <string name="minutes">min</string>
+    <string name="seconds">s</string>
+
+    <!-- ComboBox Sort -->
+    <string name="newestToOldest"> Del más reciente al más antiguo</string>
+    <string name="oldestToNewest"> Del más antiguo al más reciente </string>
+    <string name="nearToFar">Del más cerca al más lejos</string>
+    <string name="farToNear"> Del más lejos al más cerca</string>
+
+    <string-array name="sortTrashArrays">
+        <item>@string/newestToOldest</item>
+        <item>@string/oldestToNewest</item>
+        <item>@string/nearToFar</item>
+        <item>@string/farToNear</item>
+    </string-array>
+
+
+    <!-- Permission GPS -->
+    <string name="title_activity_permission_gps">PermisoGps</string>
+    <string name="gpsActivation">El GPS se apagó, quiere activarlo?</string>
+    <string name="activateGPS">Activar el GPS </string>
+    <string name="notActivateGPS">No activar el GPS</string>
+
+    <!-- Permission Internet -->
+    <string name="title_activity_permission_internet">Información red</string>
+    <string name="internetActivation">No hay ninguna conexión a internet disponible.\ Vuelve a intentarlo más tarde.</string>
+    <string name="internetActOk">ok</string>
+
+    <!-- Trash List Adapter-->
+    <string name="throwedSince">Depositado desde: </string>
+    <string name="toADistanceOf">A una distancia de: </string>
+    <string name="kilometers">kilómetro</string>
+    <string name="meters">Metros</string>
+
+    <!-- Php Requester -->
+    <string name="gpsNotInit">El GPS no está activado</string>
+    <string name="fetchingData">Recuperación de datos</string>
+    <string name="wait">Espere...</string>
+    <string name="sucessStr">El objeto está guardado</string>
+    <string name="errorStr">Se ha producido un error</string>
+
+    <!-- Map fragment -->
+    <string name="categoryMapFragment">Categoría:</string>
+
+    <!-- Declaration -->
+    <string name="onTheWeb">En la web : http://www.valhatech.com</string>
+    <string name="onTwitter">En Twitter : @valha_tech</string>
+    <string name="onFB">En Facebook : @garbage.col</string>
+
+    <string name="declaration"><![CDATA[<p>
+<h3>Objetivo y funcionamiento :</h3>
+Garbage Collector es una aplicación móvil que permite señalar objetos abandonados y de dar a estos objetos una nueva vida.<br/><br/>
+
+Nuestros consejos para el buen uso de la aplicación:<br/>
+Para depositar un objeto seleccionar la pestaña “depositar” y tomar la foto del objeto a señalar. La aplicación localiza la dirección donde se encuentra el objeto señalado. Sólo le queda validar su anuncio.<br/><br/>
+Para buscar un objeto, seleccionar las pestañas “Ofertas” o “Mapa”. La pestaña “Ofertas” permite ordenar los objetos por categorías y/o fecha de depósito o distancia. La pestaña “Mapa” le permite visualizar los objetos en un plan. Se puede también ordenar por categorías.
+
+<h3>¿ Quiénes somos ?</h3>
+Valha Tech es una start-up dedicada al desarrollo de aplicaciones para móviles.
+
+<h3>Ética :</h3>
+Usamos su conexión internet para asegurar el buen funcionamiento de la aplicación Garbage collector.  La utilización del GPS es necesaria para localizar lo más precisamente posible los objetos señalados. No asociamos su identidad o perfil con datos de localización o con una conexión internet especifica.
+
+<h3>Condiciones de uso :</h3>
+Garbage Collector es editado por Valha Tech. En ningún caso Valha Tech será responsable del los objetos señalados y del uso de la aplicación Garbage Collector.
+
+<p>]]></string>
+    <string name="goToSettings">Go to settings and enable permissions</string>
+    <string name="permissions">Camera,location and external write Services Permission are required for this app.</string>
+
+    <string name="title_activity_display_pic">DisplayPicActivity</string>
+
+</resources>

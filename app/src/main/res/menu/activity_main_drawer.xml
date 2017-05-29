@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/deposit" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_view_list_black_48dp"
+            android:title="@string/offer" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_48dp"
+            android:title="@string/map" />
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_email_black_48dp"
+            android:title="@string/contactUs" />
+        <item
+            android:id="@+id/nav_declaration"
+            android:icon="@drawable/ic_info_outline_black_48dp"
+            android:title="@string/about" />
+    </group>
+</menu>

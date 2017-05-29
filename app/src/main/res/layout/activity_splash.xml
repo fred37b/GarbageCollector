@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splashscreen"
+    android:tileMode="repeat"
+    android:contextClickable="true">
+
+
+    <!--
+     http://stackoverflow.com/questions/2706913/how-to-make-android-apps-background-image-repeat
+    -->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/ic_launching_48dp"
+        android:layout_above="@+id/imgLogo"
+        android:layout_centerHorizontal="true" />
+
+    <com.valhatech.garbagecollector.graphical.PlayGifView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="www.valhatech.com"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>

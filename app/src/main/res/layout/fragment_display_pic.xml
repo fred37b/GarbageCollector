@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayoutDisplayPic"
+    tools:context="com.valhatech.garbagecollector.fragment.DisplayPicFragment"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:foregroundGravity="center_vertical|center_horizontal|bottom|left">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewDisplayPic"
+            android:scaleType="matrix"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_vertical|center_horizontal">
+        </ImageView>
+
+</FrameLayout>
